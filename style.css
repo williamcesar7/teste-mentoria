@@ -21,6 +21,7 @@
     flex-direction: column;
     padding: 40px;
     font-family: 'Roboto', sans-serif;
+    opacity: 0.8;
 }
 
 .conteu-musica p {
@@ -37,7 +38,7 @@
     justify-content: space-between;
 }
 
-.controles{
+.controles button {
     background-color: transparent;
     border: none;
     cursor: pointer;
@@ -46,6 +47,16 @@
 .container-progresso input{
     width: 100%;
 }
+
+.tempo-musica {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4rem;
+    opacity: 0.8;
+}
+
+
 
 
 
